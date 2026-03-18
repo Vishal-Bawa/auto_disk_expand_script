@@ -1,0 +1,1 @@
+*/2 * * * * flock -n /tmp/disk_resize.lock /bin/bash /opt/scripts/aws-auto-resize.sh >> /var/log/disk-resize.log 2>&1
